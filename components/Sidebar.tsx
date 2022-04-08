@@ -1,7 +1,5 @@
 import { Button, HStack, Icon, Stack, Text } from "@chakra-ui/react";
-import { useContext } from "react";
 import { navItems } from "../constants/navItems";
-import { UserContext } from "../context/UserContext";
 import { LogoIcon } from "../icons/Logo";
 import Account from "./Account";
 
