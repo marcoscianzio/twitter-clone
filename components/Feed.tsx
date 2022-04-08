@@ -32,7 +32,7 @@ const Feed = () => {
         <CreateTweet />
       </Stack>
       {tweets.map((_, i) => {
-        return <Tweet />;
+        return <Tweet key={i}/>;
       })}
     </Stack>
   );
