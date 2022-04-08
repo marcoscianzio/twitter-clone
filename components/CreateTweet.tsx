@@ -27,8 +27,8 @@ const CreateTweet = () => {
         />
         <HStack justify="space-between">
           <HStack spacing={4}>
-            {textAreaItems.map(({ icon }) => {
-              return <Icon as={icon} boxSize={6}></Icon>;
+            {textAreaItems.map(({ icon }, i) => {
+              return <Icon key={i} as={icon} boxSize={6}></Icon>;
             })}
           </HStack>
           <Button variant="primary">Twittear</Button>
